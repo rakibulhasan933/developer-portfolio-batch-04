@@ -4,6 +4,86 @@
     font-family: "Open Sans", sans-serif;
 }
 
-.headding {
-    color: brown;
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+
+.container {
+    background-image: url('../public/developer.png'), url('../public/header_bg.png');
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+
+.navbar-link {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.navbar-link li {
+    margin-right: 50px;
+}
+
+.navbar-link li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.primary-btn {
+    padding: 10px 20px;
+    background-color: #FD6E0A;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar-title {
+    font-size: 45px;
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+#sub-title {
+    color: #FD6E0A;
+}
+
+.banner {
+    display: flex;
+    margin: 0 35px 0 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content {
+    max-width: 560px;
+}
+
+.banner-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.content-name {
+    font-size: 85px;
+    font-weight: 800;
+}
+
+.dsc {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.button-box button {
+    margin: 0 20px 0 0;
 }
