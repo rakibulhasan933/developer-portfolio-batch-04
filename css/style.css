@@ -182,3 +182,56 @@ footer textarea {
     cursor: pointer;
     width: 50%;
 }
+
+.skills {
+    padding: 10px 50px;
+}
+
+.skills-box {
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.box-item {
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skill-des {
+    text-align: center;
+}
+
+.skill-title {
+    text-align: center;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.education {
+    width: 50%;
+    padding: 20px;
+}
+
+.experiences {
+    width: 50%;
+    padding: 20px;
+
+}
+
+.education-title {
+    margin: 10px 0px;
+}
+
+.download-cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
